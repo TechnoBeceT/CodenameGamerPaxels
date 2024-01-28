@@ -1,0 +1,33 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "mythicmetals"
+      ]
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "I": {
+      "item": "minecraft:stick"
+    },
+    "$": {
+      "item": "mythicmetals:steel_axe"
+    },
+    "Q": {
+      "item": "mythicmetals:steel_shovel"
+    },
+    "A": {
+      "item": "mythicmetals:steel_pickaxe"
+    }
+  },
+  "pattern": [
+    "AQ$",
+    " I ",
+    " I "
+  ],
+  "result": {
+    "item": "codenamegamer-paxels:steel_paxel"
+  }
+}

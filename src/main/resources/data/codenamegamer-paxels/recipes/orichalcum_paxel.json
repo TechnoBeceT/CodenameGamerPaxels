@@ -1,0 +1,33 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "mythicmetals"
+      ]
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "I": {
+      "item": "minecraft:stick"
+    },
+    "$": {
+      "item": "mythicmetals:orichalcum_axe"
+    },
+    "Q": {
+      "item": "mythicmetals:orichalcum_shovel"
+    },
+    "A": {
+      "item": "mythicmetals:orichalcum_pickaxe"
+    }
+  },
+  "pattern": [
+    "AQ$",
+    " I ",
+    " I "
+  ],
+  "result": {
+    "item": "codenamegamer-paxels:orichalcum_paxel"
+  }
+}

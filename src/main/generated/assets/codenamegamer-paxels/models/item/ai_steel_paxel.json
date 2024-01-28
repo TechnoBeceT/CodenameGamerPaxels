@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "codenamegamer-paxels:item/ai_steel_paxel"
+  }
+}

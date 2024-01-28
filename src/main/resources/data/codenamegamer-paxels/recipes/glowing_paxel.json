@@ -1,0 +1,43 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "amethyst_imbuement"
+      ]
+    }
+  ],
+  "type": "amethyst_imbuement:imbuing",
+  "imbueA": {
+    "item": "minecraft:amethyst_shard"
+  },
+  "imbueB": {
+    "item": "amethyst_imbuement:citrine"
+  },
+  "imbueC": {
+    "item": "amethyst_imbuement:citrine"
+  },
+  "imbueD": {
+    "item": "minecraft:amethyst_shard"
+  },
+  "craftB": {
+    "item": "amethyst_imbuement:glowing_fragment"
+  },
+  "craftD": {
+    "item": "amethyst_imbuement:glowing_fragment"
+  },
+  "craftE": {
+    "item": "codenamegamer-paxels:garnet_paxel"
+  },
+  "craftF": {
+    "item": "amethyst_imbuement:glowing_fragment"
+  },
+  "craftH": {
+    "item": "amethyst_imbuement:glowing_fragment"
+  },
+  "title": "Glowing Paxel",
+  "cost": 13,
+  "resultA": "codenamegamer-paxels:glowing_paxel",
+  "countA": 1,
+  "transferEnchant": true
+}

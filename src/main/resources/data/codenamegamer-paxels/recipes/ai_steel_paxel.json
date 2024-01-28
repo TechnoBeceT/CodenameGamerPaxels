@@ -1,0 +1,33 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "amethyst_imbuement"
+      ]
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "I": {
+      "item": "minecraft:stick"
+    },
+    "$": {
+      "item": "amethyst_imbuement:steel_axe"
+    },
+    "Q": {
+      "item": "amethyst_imbuement:steel_shovel"
+    },
+    "A": {
+      "item": "amethyst_imbuement:steel_pickaxe"
+    }
+  },
+  "pattern": [
+    "AQ$",
+    " I ",
+    " I "
+  ],
+  "result": {
+    "item": "codenamegamer-paxels:ai_steel_paxel"
+  }
+}

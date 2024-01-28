@@ -1,0 +1,23 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "amethyst_imbuement"
+      ]
+    }
+  ],
+  "type": "amethyst_imbuement:enhancing",
+  "dust": {
+    "item": "amethyst_imbuement:gem_dust"
+  },
+  "base": {
+    "item": "codenamegamer-paxels:diamond_paxel"
+  },
+  "addition": {
+    "item": "amethyst_imbuement:garnet"
+  },
+  "result": {
+    "item": "codenamegamer-paxels:garnet_paxel"
+  }
+}

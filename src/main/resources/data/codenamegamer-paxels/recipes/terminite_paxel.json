@@ -1,0 +1,33 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "betterend"
+      ]
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "I": {
+      "item": "minecraft:stick"
+    },
+    "$": {
+      "item": "betterend:terminite_axe"
+    },
+    "Q": {
+      "item": "betterend:terminite_shovel"
+    },
+    "A": {
+      "item": "betterend:terminite_pickaxe"
+    }
+  },
+  "pattern": [
+    "AQ$",
+    " I ",
+    " I "
+  ],
+  "result": {
+    "item": "codenamegamer-paxels:terminite_paxel"
+  }
+}

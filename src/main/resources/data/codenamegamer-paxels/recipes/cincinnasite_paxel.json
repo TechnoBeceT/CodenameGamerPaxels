@@ -1,0 +1,33 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "betternether"
+      ]
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "I": {
+      "item": "minecraft:stick"
+    },
+    "$": {
+      "item": "betternether:cincinnasite_axe"
+    },
+    "Q": {
+      "item": "betternether:cincinnasite_shovel"
+    },
+    "A": {
+      "item": "betternether:cincinnasite_pickaxe"
+    }
+  },
+  "pattern": [
+    "AQ$",
+    " I ",
+    " I "
+  ],
+  "result": {
+    "item": "codenamegamer-paxels:cincinnasite_paxel"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "codenamegamer-paxels:netherite_gold_paxel"
+  },
+  "addition": {
+    "item": "advancednetherite:netherite_emerald_ingot"
+  },
+  "result": {
+    "item": "codenamegamer-paxels:netherite_emerald_paxel"
+  },
+  "template": {
+    "item": "minecraft:netherite_upgrade_smithing_template"
+  },
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:any_mod_loaded",
+      "values": [
+        "advancednetherite"
+      ]
+    }
+  ]
+}

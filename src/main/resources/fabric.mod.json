@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "codenamegamer-paxels",
+  "version": "${version}",
+  "name": "CodenameGamer Paxels",
+  "description": "Simple Paxels with multiple mod support.",
+  "authors": [
+    "TechnoBeceT"
+  ],
+  "contact": {
+    "homepage": "https://modrinth.com/mod/codenamegamer-paxels",
+    "sources": "https://github.com/TechnoBeceT/CodenameGamerPaxels"
+  },
+  "license": "MIT",
+  "icon": "assets/codenamegamer-paxels/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.technobecet.paxels.CodenameGamerPaxelsMod"
+    ],
+    "client": [
+      "com.technobecet.paxels.CodenameGamerPaxelsModClient"
+    ],
+    "fabric-datagen": [
+      "com.technobecet.paxels.CodenameGamerPaxelsModDataGenerator"
+    ]
+  },
+  "mixins": [
+    "codenamegamer-paxels.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.24",
+    "minecraft": "~1.20.1",
+    "java": ">=17",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "mythicmetals": "*",
+    "advancednetherite": "*",
+    "amethyst_imbuement": "*",
+    "betterend": "*",
+    "betternether": "*",
+    "dragonloot": "*"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "amethyst_imbuement"
+      ]
+    }
+  ],
+  "type": "amethyst_imbuement:enhancing",
+  "dust": {
+    "item": "amethyst_imbuement:knowledge_powder"
+  },
+  "base": {
+    "item": "codenamegamer-paxels:netherite_paxel"
+  },
+  "addition": {
+    "item": "amethyst_imbuement:ametrine"
+  },
+  "result": {
+    "item": "codenamegamer-paxels:ametrine_paxel"
+  }
+}

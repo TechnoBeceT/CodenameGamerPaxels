@@ -1,0 +1,23 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "betternether"
+      ]
+    }
+  ],
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "minecraft:diamond"
+  },
+  "base": {
+    "item": "codenamegamer-paxels:cincinnasite_paxel"
+  },
+  "result": {
+    "item": "codenamegamer-paxels:cincinnasite_paxel_diamond"
+  },
+  "template": {
+    "item": "betternether:cincinnasite_diamond_upgrade_smithing_template"
+  }
+}

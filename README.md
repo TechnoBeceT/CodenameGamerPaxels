@@ -24,3 +24,27 @@ Add your favorite enchantments to the Paxel, making it not just a tool, but a po
 ### Crafting Recipe
 ![Crafting Recipe](https://cdn.modrinth.com/data/M2gOD1hJ/images/154fa6d1f3945a331a10b5a6e36b1d2059fc4391.png)
 
+
+<details>
+<summary>Supported Mods</summary>
+<ul>
+<li>🟢 <a href="https://modrinth.com/mod/advanced-netherite" target="_blank">Advanced Netherite</a></li>
+<li>🟢 <a href="https://modrinth.com/mod/amethyst-imbuement" target="_blank">Amethyst Imbuement</a></li>
+<li>🟢 <a href="https://modrinth.com/mod/betterend" target="_blank">BetterEnd</a></li>
+<li>🟢 <a href="https://modrinth.com/mod/betternether" target="_blank">BetterNether</a></li>
+<li>🟢 <a href="https://modrinth.com/mod/dragonloot" target="_blank">DragonLoot</a></li>
+<li>🟢 <a href="https://modrinth.com/mod/mythicmetals" target="_blank">Mythic Metals</a></li>
+</ul>
+</details>
+
+
+
+# Q&A
+### Mod Support?
+Yes, make an issue for the mod you want supported
+
+### Forge/Backport?
+No, I mainly play Fabric.
+
+### Curse Forge?
+Nope, Modrinth is the reason i did start publishing my mods.

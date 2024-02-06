@@ -34,6 +34,9 @@ public class CodenameGamerPaxelsModDataGenerator implements DataGeneratorEntrypo
         if (FabricLoader.getInstance().isModLoaded("dragonloot")) {
             pack.addProvider(DragonLootModelProvider::new);
         }
+        if (FabricLoader.getInstance().isModLoaded("deeperdarker")) {
+            pack.addProvider(DeeperDarkerModelProvider::new);
+        }
 
     }
 }

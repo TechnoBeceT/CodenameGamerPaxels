@@ -71,6 +71,9 @@ public class ModItemGroup {
                         if (FabricLoader.getInstance().isModLoaded("dragonloot")) {
                             entries.add(DragonLootItems.DRAGON_PAXEL);
                         }
+                        if (FabricLoader.getInstance().isModLoaded("deeperdarker")) {
+                            entries.add(DeeperDarkerItems.WARDEN_PAXEL);
+                        }
                     }).build());
 
     public static void registerItemGroups() {

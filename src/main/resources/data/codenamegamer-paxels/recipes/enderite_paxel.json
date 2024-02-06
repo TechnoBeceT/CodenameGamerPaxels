@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "enderitemod:enderite_ingot"
+  },
+  "base": {
+    "item": "codenamegamer-paxels:netherite_paxel"
+  },
+  "result": {
+    "item": "codenamegamer-paxels:enderite_paxel"
+  },
+  "template": {
+    "item": "enderitemod:enderite_upgrade_smithing_template"
+  },
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:any_mod_loaded",
+      "values": [
+        "enderitemod"
+      ]
+    }
+  ]
+}

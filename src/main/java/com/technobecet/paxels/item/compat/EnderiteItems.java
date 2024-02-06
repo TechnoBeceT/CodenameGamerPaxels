@@ -10,21 +10,20 @@ import net.minecraft.item.ItemGroups;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
-import net.minecraft.util.Rarity;
 
-public class DeeperDarkerItems {
-    public static final Item WARDEN_PAXEL = registerItem("warden_paxel", new PaxelItem(CompatToolMaterials.WARDEN, 6.0f, -2.8f, new FabricItemSettings().rarity(Rarity.RARE).fireproof()));
+public class EnderiteItems {
+    public static final Item ENDERITE_PAXEL = registerItem("enderite_paxel", new PaxelItem(CompatToolMaterials.ENDERITE, 9.0f, -2.8f, new FabricItemSettings().fireproof()));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, new Identifier(CodenameGamerPaxelsMod.MOD_ID, name), item);
     }
 
     private static void itemGroupTools(FabricItemGroupEntries entries) {
-        entries.add(WARDEN_PAXEL);
+        entries.add(ENDERITE_PAXEL);
     }
 
     public static void registerModItems() {
-        CodenameGamerPaxelsMod.LOGGER.info("Registering Deeper and Darker Mod Compatibility Items for " + CodenameGamerPaxelsMod.MOD_ID);
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.TOOLS).register(DeeperDarkerItems::itemGroupTools);
+        CodenameGamerPaxelsMod.LOGGER.info("Registering Enderite Mod Compatibility Items for " + CodenameGamerPaxelsMod.MOD_ID);
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.TOOLS).register(EnderiteItems::itemGroupTools);
     }
 }

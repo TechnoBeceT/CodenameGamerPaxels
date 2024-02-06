@@ -74,6 +74,17 @@ public class ModItemGroup {
                         if (FabricLoader.getInstance().isModLoaded("deeperdarker")) {
                             entries.add(DeeperDarkerItems.WARDEN_PAXEL);
                         }
+                        if (FabricLoader.getInstance().isModLoaded("enderitemod")) {
+                            entries.add(EnderiteItems.ENDERITE_PAXEL);
+                        }
+                        if (FabricLoader.getInstance().isModLoaded("advancedenderite")) {
+                            entries.add(AdvancedEnderiteItems.NETHERITE_ENDERITE_PAXEL);
+                            entries.add(AdvancedEnderiteItems.IRON_ENDERITE__PAXEL);
+                            entries.add(AdvancedEnderiteItems.GOLD_ENDERITE__PAXEL);
+                            entries.add(AdvancedEnderiteItems.EMERALD_ENDERITE__PAXEL);
+                            entries.add(AdvancedEnderiteItems.DIAMOND_ENDERITE__PAXEL);
+                            entries.add(AdvancedEnderiteItems.AMETHYST_ENDERITE__PAXEL);
+                        }
                     }).build());
 
     public static void registerItemGroups() {

@@ -47,5 +47,11 @@ public class CodenameGamerPaxelsMod implements ModInitializer {
         if (FabricLoader.getInstance().isModLoaded("deeperdarker")) {
             DeeperDarkerItems.registerModItems();
         }
+        if (FabricLoader.getInstance().isModLoaded("enderitemod")) {
+            EnderiteItems.registerModItems();
+        }
+        if (FabricLoader.getInstance().isModLoaded("advancedenderite")) {
+            AdvancedEnderiteItems.registerModItems();
+        }
     }
 }

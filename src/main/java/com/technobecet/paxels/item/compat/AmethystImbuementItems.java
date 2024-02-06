@@ -29,7 +29,7 @@ public class AmethystImbuementItems {
     }
 
     public static void registerModItems() {
-        CodenameGamerPaxelsMod.LOGGER.info("Registering Mythic Metals Mod Compatibility Items for " + CodenameGamerPaxelsMod.MOD_ID);
+        CodenameGamerPaxelsMod.LOGGER.info("Registering Amethyst Imbuement Mod Compatibility Items for " + CodenameGamerPaxelsMod.MOD_ID);
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.TOOLS).register(AmethystImbuementItems::itemGroupTools);
     }
 }

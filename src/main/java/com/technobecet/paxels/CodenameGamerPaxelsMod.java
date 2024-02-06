@@ -44,5 +44,8 @@ public class CodenameGamerPaxelsMod implements ModInitializer {
         if (FabricLoader.getInstance().isModLoaded("dragonloot")) {
             DragonLootItems.registerModItems();
         }
+        if (FabricLoader.getInstance().isModLoaded("deeperdarker")) {
+            DeeperDarkerItems.registerModItems();
+        }
     }
 }

@@ -29,7 +29,7 @@ public class BetterNetherItems {
     }
 
     public static void registerModItems() {
-        CodenameGamerPaxelsMod.LOGGER.info("Registering Mythic Metals Mod Compatibility Items for " + CodenameGamerPaxelsMod.MOD_ID);
+        CodenameGamerPaxelsMod.LOGGER.info("Registering Better Nether Mod Compatibility Items for " + CodenameGamerPaxelsMod.MOD_ID);
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.TOOLS).register(BetterNetherItems::itemGroupTools);
     }
 }

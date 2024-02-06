@@ -27,7 +27,7 @@ public class BetterEndItems {
     }
 
     public static void registerModItems() {
-        CodenameGamerPaxelsMod.LOGGER.info("Registering Mythic Metals Mod Compatibility Items for " + CodenameGamerPaxelsMod.MOD_ID);
+        CodenameGamerPaxelsMod.LOGGER.info("Registering Better End Mod Compatibility Items for " + CodenameGamerPaxelsMod.MOD_ID);
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.TOOLS).register(BetterEndItems::itemGroupTools);
     }
 }

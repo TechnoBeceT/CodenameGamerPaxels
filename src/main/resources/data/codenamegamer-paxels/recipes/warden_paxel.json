@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "deeperdarker:reinforced_echo_shard"
+  },
+  "base": {
+    "item": "codenamegamer-paxels:netherite_paxel"
+  },
+  "result": {
+    "item": "codenamegamer-paxels:warden_paxel"
+  },
+  "template": {
+    "item": "deeperdarker:warden_upgrade_smithing_template"
+  },
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:any_mod_loaded",
+      "values": [
+        "deeperdarker"
+      ]
+    }
+  ]
+}
